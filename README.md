@@ -61,7 +61,7 @@
 <body>
   <main class="wrap">
     <!-- Logo -->
-    <img width="40" height="40" alt="image" src="https://github.com/user-attachments/assets/defcdc82-43d7-49a7-acf3-759f1e577951" />
+    <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/defcdc82-43d7-49a7-acf3-759f1e577951" />
 
 
     <!-- Company name -->
