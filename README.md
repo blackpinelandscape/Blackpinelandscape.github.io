@@ -1,5 +1,4 @@
-content="width=device-width, initial-scale=1" />
-  <title>Black Pine Landscape</title>
+<title>Black Pine Landscape</title>
   <style>
     :root {
       --green:#596F2A;   /* matched to your logo */
