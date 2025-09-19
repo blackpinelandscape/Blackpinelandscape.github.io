@@ -1,4 +1,4 @@
- <!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
@@ -25,7 +25,10 @@
       text-align:center;
     }
     img.logo {
-      max-width:160px;
+      width:40vw;          /* scales with viewport */
+      max-width:200px;     /* don’t get too big */
+      min-width:120px;     /* don’t get too small */
+      height:auto;
       margin:0 auto 24px;
       display:block;
     }
@@ -59,7 +62,7 @@
 <body>
   <main class="wrap">
     <!-- Logo -->
-    <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/3f5ed285-349c-4bad-86ff-b05e230948c6" />
+    <img src="logo.png" alt="Black Pine Landscape logo" class="logo" />
 
     <!-- Company name -->
     <h1>BLACK PINE LANDSCAPE</h1>
