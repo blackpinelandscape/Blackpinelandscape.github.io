@@ -1,3 +1,11 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Black Pine Landscape</title>
+  <style>
+    :root {
 --green:#596F2A;   /* matched to your logo */
       --text:#1a1a1a;
       --bg:#ffffff;
