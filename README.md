@@ -25,10 +25,9 @@
       text-align:center;
     }
     img.logo {
-      width:40vw;          /* scales with viewport */
+      width:40vw;          /* responsive */
       max-width:200px;     /* don’t get too big */
-      min-width:120px;     /* don’t get too small */
-      height:auto;
+      height:auto;         /* preserve aspect ratio */
       margin:0 auto 24px;
       display:block;
     }
@@ -62,8 +61,7 @@
 <body>
   <main class="wrap">
     <!-- Logo -->
-    <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/bf20c350-41f2-4172-a528-757b1bcd4845" />
-
+    <img src="logo.png" alt="Black Pine Landscape logo" class="logo" />
 
     <!-- Company name -->
     <h1>BLACK PINE LANDSCAPE</h1>
