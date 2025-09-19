@@ -61,7 +61,8 @@
 <body>
   <main class="wrap">
     <!-- Logo -->
-    <img src="logo.png" alt="Black Pine Landscape logo" class="logo" />
+    <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/defcdc82-43d7-49a7-acf3-759f1e577951" />
+
 
     <!-- Company name -->
     <h1>BLACK PINE LANDSCAPE</h1>
