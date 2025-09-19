@@ -1,7 +1,4 @@
-<title>Black Pine Landscape</title>
-  <style>
-    :root {
-      --green:#596F2A;   /* matched to your logo */
+--green:#596F2A;   /* matched to your logo */
       --text:#1a1a1a;
       --bg:#ffffff;
       --max:860px;
