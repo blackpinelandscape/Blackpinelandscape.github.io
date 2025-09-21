@@ -4,25 +4,37 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>About - Black Pine Landscape</title>
-  <link rel="stylesheet" href="style.css" /> <!-- optional if you want shared CSS -->
+  <style>
+    :root { --green:#596F2A; --text:#1a1a1a; --bg:#fff; --max:800px; }
+    body { margin:0; background:var(--bg); color:var(--text); font:400 18px/1.7 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; }
+    header { background:var(--green); color:#fff; padding:1rem; text-align:center; }
+    header img { max-height:80px; display:block; margin:0 auto .5rem; }
+    header h1 { margin:0; font-size:1.8rem; }
+    nav { margin-top:.5rem; }
+    nav a { color:#fff; margin:0 1rem; text-decoration:none; font-weight:500; }
+    nav a:hover { text-decoration:underline; }
+    .wrap { max-width:var(--max); margin:2rem auto; padding:0 1rem; }
+    h2 { color:var(--green); margin-top:0; text-align:center; }
+    p { margin:.9rem 0; }
+  </style>
 </head>
 <body>
   <header>
-    <h1>About Black Pine Landscape</h1>
+    <img src="logo.png" alt="Black Pine Landscape Logo" />
+    <h1>Black Pine Landscape</h1>
     <nav>
       <a href="index.html">Home</a>
+      <a href="about.html">About</a>
       <a href="services.html">Services</a>
       <a href="contact.html">Contact</a>
     </nav>
   </header>
 
-  <main>
+  <div class="wrap">
     <h2>About</h2>
-    <p>
-      Arboriculture is more than just my profession—it’s my passion. For over 20 years, 
-      I’ve dedicated my career to the care of trees, blending artistry with modern arboricultural 
-      practices to bring out their natural beauty, health, and structure.
-    </p>
-  </main>
+    <p>Arboriculture is more than just my profession—it’s my passion. For over 20 years, I’ve dedicated my career to the care of trees, blending artistry with modern arboricultural practices to bring out their natural beauty, health, and structure.</p>
+    <p>I founded <strong>Black Pine Landscape</strong> as an intentionally small company so clients work directly with me from start to finish. This ensures that every project receives both my expertise and my personal attention, with nothing lost in translation.</p>
+    <p>Rooted in my <strong>Christ-centered faith</strong>, I see this work as more than maintenance—it’s a way of honoring God’s creation and reflecting the beauty and order first given in the <strong>Garden of Eden</strong>. My goal is to approach each tree with intention, respect, and craftsmanship, creating results that endure for years to come.</p>
+  </div>
 </body>
 </html>
