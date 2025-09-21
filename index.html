@@ -33,17 +33,30 @@
       margin: 0;
       font-size: 1.8rem;
     }
+    /* --- Updated nav styling for button look --- */
     nav {
-      margin-top: 0.5rem;
+      display: flex;
+      justify-content: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      margin-top: 0.75rem;
     }
     nav a {
-      color: white;
-      margin: 0 1rem;
+      flex: 1;
+      max-width: 100px;
+      text-align: center;
+      background: white;
+      color: var(--green);
+      padding: 0.4rem 0.6rem;
+      border-radius: 6px;
+      border: 1px solid white;
+      font-size: 0.85rem;
       text-decoration: none;
-      font-weight: 500;
+      font-weight: 600;
     }
     nav a:hover {
-      text-decoration: underline;
+      background: #f5f5f5;
+      border-color: #ddd;
     }
     .wrap {
       max-width: var(--max);
