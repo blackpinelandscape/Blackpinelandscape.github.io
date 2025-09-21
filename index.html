@@ -61,7 +61,8 @@
 </head>
 <body>
   <header>
-    <img src="logo.png" alt="Black Pine Landscape Logo" />
+    <img <img width="240" height="240" alt="image" src="https://github.com/user-attachments/assets/cf09feea-d91f-4abd-ad43-a67f66832988" />
+/>
     <h1>Black Pine Landscape</h1>
     <nav>
       <a href="about.html">About</a>
