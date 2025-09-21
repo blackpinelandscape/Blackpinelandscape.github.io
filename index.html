@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
@@ -5,102 +6,73 @@
   <title>Black Pine Landscape</title>
   <style>
     :root {
-      --green:#596F2A;   /* matched to your logo */
-      --text:#1a1a1a;
-      --bg:#ffffff;
-      --max:860px;
+      --green: #596F2A;   /* matches your logo color */
+      --text: #1a1a1a;
+      --bg: #ffffff;
+      --max: 800px;
     }
-    html,body {
-      margin:0;
-      padding:0;
-      background:var(--bg);
-      color:var(--text);
-      font: 400 18px/1.7 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 400 18px/1.7 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
     }
-    .wrap {
-      max-width:var(--max);
-      margin:0 auto;
-      padding:40px 22px;
-      text-align:center;
+    header {
+      background: var(--green);
+      color: white;
+      padding: 1rem;
+      text-align: center;
     }
-    img.logo {
-      width:40vw;          
-      max-width:200px;     
-      height:auto;         
-      margin:0 auto 24px;
-      display:block;
-    }
-    h1 {
-      margin:0 0 20px;
-      color:var(--green);
-      font-weight:800;
-      letter-spacing:.08em;
-      text-transform:uppercase;
-      font-size: clamp(28px, 5vw, 50px);
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
     }
     nav {
-      margin: 20px 0 40px;
+      margin-top: 0.5rem;
     }
     nav a {
-      display:inline-block;
-      margin:0 10px;
-      padding:10px 20px;
-      background:var(--green);
-      color:#fff;
-      text-decoration:none;
-      font-weight:600;
-      border-radius:4px;
-      transition:background .3s ease;
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: 500;
     }
     nav a:hover {
-      background:#44551f;
+      text-decoration: underline;
     }
-    p {
-      margin:0 auto 18px;
-      text-align:left;
+    .wrap {
+      max-width: var(--max);
+      margin: 2rem auto;
+      padding: 0 1rem;
+      text-align: center;
     }
-    .sig {
-      margin-top:28px;
-      font-weight:600;
-      text-align:center;
-    }
-    .phone a {
-      color:var(--green);
-      text-decoration:none;
-      border-bottom:1px solid rgba(89,111,42,.35);
-    }
-    .phone a:hover {
-      border-bottom-color:transparent;
+    .welcome strong {
+      display: block;
+      font-size: 1.4rem;
+      margin-bottom: 0.5rem;
+      color: var(--green);
     }
   </style>
 </head>
 <body>
-  <main class="wrap">
-    <!-- Logo -->
-    <img class="logo" width="200" height="200" alt="Black Pine Landscape Logo" src="https://github.com/user-attachments/assets/defcdc82-43d7-49a7-acf3-759f1e577951" />
-
-    <!-- Company name -->
-    <h1>BLACK PINE LANDSCAPE</h1>
-
-    <!-- Navigation -->
+  <header>
+    <h1>Black Pine Landscape</h1>
     <nav>
-      <a href="about.html">About Me</a>
+      <a href="about.html">About</a>
       <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
     </nav>
+  </header>
 
-    <!-- Main description -->
-    <p><strong>Welcome to Black Pine Landscape.</strong><br>
-    I bring over 20 years of experience in arboriculture with a passion for trees and the landscapes they shape. My work is guided by craftsmanship, intention, and faith—caring for each tree as part of God’s creation while delivering results that are both healthy and beautiful.</p>
-
-    <p>I founded Black Pine Landscape as an intentionally small company so that nothing is lost in translation—you’ll work directly with me from start to finish. This allows me to bring both my expertise and personal attention to every detail.</p>
-
-    <p>While I take on a variety of tree care projects, I specialize in pruning smaller yard trees, where artistry and precision have the greatest impact. Each cut is made with intention: to strengthen health, refine form, and create lasting beauty in the landscape.</p>
-
-    <p>Over two decades in the field, I’ve built a reputation for careful craftsmanship, practical knowledge, and a deep respect for trees. Whether you’re looking for the sculptural elegance of Japanese pruning or reliable, professional care rooted in modern arboriculture, I bring the same commitment to quality and long-term results.</p>
-
-    <!-- Signature and contact -->
-    <div class="sig">Alex Hacké</div>
-    <div class="phone"><a href="tel:+15039365900">503.936.5900</a></div>
-  </main>
+  <div class="wrap">
+    <div class="welcome">
+      <strong>Welcome to Black Pine Landscape</strong>
+      <p>
+        I bring over 20 years of experience in arboriculture with a passion for trees and the landscapes they shape. 
+        My work is guided by craftsmanship, intention, and faith—caring for each tree as part of God’s creation while 
+        delivering results that are both healthy and beautiful.
+      </p>
+    </div>
+  </div>
 </body>
 </html>
