@@ -24,6 +24,11 @@
       padding: 1rem;
       text-align: center;
     }
+    header img {
+      max-height: 80px;
+      display: block;
+      margin: 0 auto 0.5rem;
+    }
     header h1 {
       margin: 0;
       font-size: 1.8rem;
@@ -56,6 +61,7 @@
 </head>
 <body>
   <header>
+    <img src="logo.png" alt="Black Pine Landscape Logo" />
     <h1>Black Pine Landscape</h1>
     <nav>
       <a href="about.html">About</a>
