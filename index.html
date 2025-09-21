@@ -5,7 +5,7 @@
   <title>Black Pine Landscape</title>
   <style>
     :root {
---green:#596F2A;   /* matched to your logo */
+      --green:#596F2A;   /* matched to your logo */
       --text:#1a1a1a;
       --bg:#ffffff;
       --max:860px;
@@ -42,6 +42,11 @@
       margin:0 auto 18px;
       text-align:left;
     }
+    ul {
+      margin:0 auto 18px;
+      padding-left:20px;
+      text-align:left;
+    }
     .sig {
       margin-top:28px;
       font-weight:600;
@@ -62,14 +67,24 @@
     <!-- Logo -->
     <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/defcdc82-43d7-49a7-acf3-759f1e577951" />
 
-
     <!-- Company name -->
     <h1>BLACK PINE LANDSCAPE</h1>
 
     <!-- Main description -->
-    <p>Arboriculture is more than just my profession—it’s my passion. I specialize in the traditional Japanese Sukashi style of pruning, an art form that emphasizes balance, beauty, and intention. My focus is on blending these timeless techniques with modern arboricultural practices to bring out the best in every tree.</p>
+    <p>Arboriculture is more than just my profession—it’s my passion. With over 20 years of experience, I’ve dedicated my career to the art and science of tree care, specializing in Japanese pruning traditions: Sukashi and Niwaki.</p>
 
-    <p>With years of experience caring for and maintaining trees of all sizes, I’ve built Black Pine Landscape as an intentionally small company. This ensures that nothing is lost in translation—you’ll be working directly with me from start to finish, receiving both my expertise and my personal attention at every step.</p>
+    <ul>
+      <li><strong>Sukashi (透かし):</strong> a “see-through” pruning technique that opens the tree to light and air, revealing its structure with graceful transparency.</li>
+      <li><strong>Niwaki (庭木):</strong> the broader practice of shaping garden trees into layered, cloud-like forms that embody balance, harmony, and the essence of nature.</li>
+    </ul>
+
+    <p>What sets my work apart is the way I blend these timeless traditions with modern arboriculture practices. Each project reflects both the artistry of Japanese pruning and the best of today’s science-based tree care—ensuring health, structure, and beauty go hand in hand.</p>
+
+    <p>I founded Black Pine Landscape as an intentionally small company so that nothing is lost in translation—you’ll work directly with me from start to finish. This allows me to bring both my expertise and personal attention to every detail.</p>
+
+    <p>While I take on a variety of tree care projects, I specialize in pruning smaller yard trees, where artistry and precision have the greatest impact. Each cut is made with intention: to strengthen health, refine form, and create lasting beauty in the landscape.</p>
+
+    <p>Over two decades in the field, I’ve built a reputation for careful craftsmanship, practical knowledge, and a deep respect for trees. Whether you’re looking for the sculptural elegance of Japanese pruning or reliable, professional care rooted in modern arboriculture, I bring the same commitment to quality and long-term results.</p>
 
     <!-- Signature and contact -->
     <div class="sig">Alex Hacké</div>
