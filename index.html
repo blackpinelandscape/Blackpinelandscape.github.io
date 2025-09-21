@@ -61,7 +61,7 @@
 </head>
 <body>
   <header>
-    <img src="logo.png" alt="Black Pine Landscape Logo" />
+    <img src="32E9AA91-6E58-4F14-8CCB-598424B3563C.png" alt="Black Pine Landscape Logo" />
     <h1>Black Pine Landscape</h1>
     <nav>
       <a href="about.html">About</a>
