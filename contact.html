@@ -81,11 +81,11 @@
     .card a { color:var(--green); text-decoration:none; }
     .card a:hover { text-decoration:underline; }
 
-    /* Force address onto one line */
+    /* Force address onto one line with responsive scaling */
     .address {
       white-space: nowrap;
       overflow-wrap: normal;
-      font-size: 0.95rem; /* optional: slightly smaller to fit */
+      font-size: clamp(0.8rem, 2.5vw, 1rem); /* scales between 0.8rem and 1rem */
     }
   </style>
 </head>
