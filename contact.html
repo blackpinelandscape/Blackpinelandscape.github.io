@@ -98,6 +98,27 @@
       font-size: clamp(0.72rem, 4.2vw, 1rem);
     }
 
+    /* Venmo button style */
+    .venmo-btn {
+      display:inline-block;
+      margin-top: 1rem;
+      background:var(--green);
+      color:white !important;
+      padding:.6rem 1rem;
+      border-radius:8px;
+      text-decoration:none;
+      font-weight:700;
+      font-size:1rem;
+      border:0;
+      box-shadow:0 6px 14px rgba(30,80,30,0.12);
+    }
+    .venmo-btn:hover {
+      background:#2d5d21;
+    }
+    .venmo-btn:active {
+      transform: translateY(1px);
+    }
+
     /* Slightly reduce horizontal padding on very narrow screens */
     @media (max-width: 380px) {
       .card { padding-inline: 0.75rem; }
@@ -135,6 +156,8 @@
         </a>
       </p>
       <p class="address"><span>9315 SW Morrison St, Portland, OR 97225</span></p>
+      <!-- Venmo button -->
+      <p><a class="venmo-btn" href="https://venmo.com/u/Alex-Hacke" target="_blank">Pay via Venmo</a></p>
     </div>
   </div>
 </body>
