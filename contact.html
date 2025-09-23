@@ -6,6 +6,11 @@
   <title>Contact - Black Pine Landscape</title>
   <style>
     :root { --green:#3E7B2E; --text:#1a1a1a; --bg:#fff; --max:800px; }
+
+    /* Prevent Safari auto-zoom and keep sizing predictable */
+    html { -webkit-text-size-adjust: 100%; }
+    *, *::before, *::after { box-sizing: border-box; }
+
     body {
       margin:0;
       background:var(--bg);
@@ -81,11 +86,21 @@
     .card a { color:var(--green); text-decoration:none; }
     .card a:hover { text-decoration:underline; }
 
-    /* Force address onto one line with responsive scaling */
-    .address {
+    /* Address: one line, centered, responsive */
+    .address { 
+      margin: .4rem 0 0; 
+      text-align: center; 
+    }
+    .address span {
+      display: inline-block;
       white-space: nowrap;
       overflow-wrap: normal;
-      font-size: clamp(0.8rem, 2.5vw, 1rem); /* scales between 0.8rem and 1rem */
+      font-size: clamp(0.72rem, 4.2vw, 1rem);
+    }
+
+    /* Slightly reduce horizontal padding on very narrow screens */
+    @media (max-width: 380px) {
+      .card { padding-inline: 0.75rem; }
     }
   </style>
 </head>
@@ -119,7 +134,7 @@
           Apple Maps
         </a>
       </p>
-      <p class="address">9315 SW Morrison St, Portland, OR 97225</p>
+      <p class="address"><span>9315 SW Morrison St, Portland, OR 97225</span></p>
     </div>
   </div>
 </body>
