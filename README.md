@@ -6,7 +6,7 @@
   <title>Black Pine Landscape</title>
   <style>
     :root {
-      --green: #3E7B2E;   /* updated to match new logo color */
+      --green: #596F2A;   /* matches your logo color */
       --text: #1a1a1a;
       --bg: #ffffff;
       --max: 800px;
@@ -95,3 +95,5 @@
   </div>
 </body>
 </html>
+
+
