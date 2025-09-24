@@ -6,7 +6,7 @@
   <title>Black Pine Landscape</title>
   <style>
     :root {
-      --green: #596F2A;   /* matches your logo color */
+      --green: #3E7B2E;   /* updated to match new logo color */
       --text: #1a1a1a;
       --bg: #ffffff;
       --max: 800px;
@@ -18,22 +18,31 @@
       color: var(--text);
       font: 400 18px/1.7 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
     }
+
+    /* Logo banner section */
+    .logo-banner {
+      background: white;            /* white background just for logo */
+      padding: 1.5rem 0;
+      text-align: center;
+    }
+    .logo-banner img {
+      max-height: 120px;
+      width: auto;
+    }
+
+    /* Company header bar */
     header {
       background: var(--green);
       color: white;
       padding: 1rem;
       text-align: center;
     }
-    header img {
-      max-height: 80px;
-      display: block;
-      margin: 0 auto 0.5rem;
-    }
     header h1 {
       margin: 0;
       font-size: 1.8rem;
     }
-    /* --- Updated nav styling for button look --- */
+
+    /* Button-style nav */
     nav {
       display: flex;
       justify-content: center;
@@ -53,28 +62,48 @@
       font-size: 0.85rem;
       text-decoration: none;
       font-weight: 600;
+      transition: background .15s, border-color .15s;
     }
     nav a:hover {
       background: #f5f5f5;
       border-color: #ddd;
     }
+
+    /* Body content */
     .wrap {
       max-width: var(--max);
       margin: 2rem auto;
       padding: 0 1rem;
-      text-align: center;
     }
     .welcome strong {
       display: block;
       font-size: 1.4rem;
       margin-bottom: 0.5rem;
       color: var(--green);
+      text-align: center;
+    }
+    .welcome p {
+      text-align: left;  /* body text left aligned for readability */
     }
   </style>
+
+<!-- Favicons (absolute URLs + cache-busters) -->
+<link rel="icon" href="https://blackpinelandscape.com/favicon.ico?v=3" sizes="any">
+<link rel="shortcut icon" href="https://blackpinelandscape.com/favicon.ico?v=3">
+<link rel="icon" type="image/png" sizes="32x32" href="https://blackpinelandscape.com/favicon-32.png?v=3">
+<link rel="icon" type="image/png" sizes="16x16" href="https://blackpinelandscape.com/favicon-16.png?v=3">
+<link rel="apple-touch-icon" sizes="180x180" href="https://blackpinelandscape.com/apple-touch-icon.png?v=3">
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://blackpinelandscape.com/apple-touch-icon.png?v=3">
+
 </head>
 <body>
+  <!-- White background logo banner -->
+  <div class="logo-banner">
+    <img src="apple-touch-icon.png" alt="Black Pine Landscape Logo" />
+  </div>
+
+  <!-- Green header bar -->
   <header>
-    <img src="32E9AA91-6E58-4F14-8CCB-598424B3563C.png" alt="Black Pine Landscape Logo" />
     <h1>Black Pine Landscape</h1>
     <nav>
       <a href="about.html">About</a>
@@ -95,5 +124,3 @@
   </div>
 </body>
 </html>
-
-
