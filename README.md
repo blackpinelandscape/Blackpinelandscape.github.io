@@ -88,18 +88,18 @@
   </style>
 
 <!-- Favicons (absolute URLs + cache-busters) -->
-<link rel="icon" href="https://blackpinelandscape.com/favicon.ico?v=3" sizes="any">
-<link rel="shortcut icon" href="https://blackpinelandscape.com/favicon.ico?v=3">
-<link rel="icon" type="image/png" sizes="32x32" href="https://blackpinelandscape.com/favicon-32.png?v=3">
-<link rel="icon" type="image/png" sizes="16x16" href="https://blackpinelandscape.com/favicon-16.png?v=3">
-<link rel="apple-touch-icon" sizes="180x180" href="https://blackpinelandscape.com/apple-touch-icon.png?v=3">
-<link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://blackpinelandscape.com/apple-touch-icon.png?v=3">
+<link rel="icon" href="https://blackpinelandscape.com/favicon.ico?v=9" sizes="any">
+<link rel="shortcut icon" href="https://blackpinelandscape.com/favicon.ico?v=9">
+<link rel="icon" type="image/png" sizes="32x32" href="https://blackpinelandscape.com/favicon-32.png?v=9">
+<link rel="icon" type="image/png" sizes="16x16" href="https://blackpinelandscape.com/favicon-16.png?v=9">
+<link rel="apple-touch-icon" sizes="180x180" href="https://blackpinelandscape.com/apple-touch-icon.png?v=9">
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://blackpinelandscape.com/apple-touch-icon.png?v=9">
 
 </head>
 <body>
   <!-- White background logo banner -->
   <div class="logo-banner">
-    <img src="apple-touch-icon.png" alt="Black Pine Landscape Logo" />
+    <img src="apple-touch-icon.png?v=9" alt="Black Pine Landscape Logo" />
   </div>
 
   <!-- Green header bar -->
